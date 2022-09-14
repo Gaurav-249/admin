@@ -1,0 +1,45 @@
+header
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: poppins;
+	text-decoration: none;
+}
+		header{
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+			background-color: #30475e;
+			color: white;
+			padding: 20px 0;
+
+		}
+		header nav a{
+			color: white;
+			margin-right: 30px;
+			font-weight: 500;
+
+		}
+.footer{
+	left: 0px;
+	bottom: 0px;
+	width: 100%;
+	background: magenta;
+	position: fixed;
+	height: 65px;
+}
+body{
+	margin: 0px;
+}
+.div{
+	height: 250px;
+	width: 250px;
+	border-radius: 300px;
+	box-sizing: border-box;
+	text-shadow: 2px 1px 2px red;
+	margin: 20px auto;
+	padding: 10px;
+	border: 1px solid green;
+}

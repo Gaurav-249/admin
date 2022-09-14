@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pro</title>
+	<style type="text/css">
+		p{
+			text-transform: uppercase;
+			letter-spacing: 5px;
+			word-spacing: 20px;
+			text-shadow: 2px 1px 2px red;
+			text-decoration: underline;
+			font-size: 40px;
+			font-style: italic;
+			width: 15em;
+			border: 5px solid green;
+			padding: 10px;
+			word-wrap: break-word;
+			background: orange;
+		}
+	</style>
+</head>
+<body>
+<center>
+	<!-- using template tag -->
+	<p><marquee behavior="alternate" direction="right">SUCCESS TO LOGIN FORM.</marquee></p>
+	<button onclick="M()">REDIRECT PAGE</button>
+	
+	<template>
+		<h1>DESIGNER.</h1>
+		<!-- <img src="banner-bg1.png" height="300" width="490">
+		<img src="banner-bg2.png" height="300" width="490">
+		<img src="banner-bg3.png" height="300" width="490">
+		<img src="banner-bg1.png" height="300" width="490"> -->
+	</template>
+	<script>
+		function M()
+		{
+			// var temp=document.getElementsByTagName('template')[0];
+			// var set=temp.content.cloneNode('true');
+			// document.body.appendChild(set);
+			location.assign('backend.html');
+		}
+	</script>
+</center>
+</body>
+</html>
